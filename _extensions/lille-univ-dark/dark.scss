@@ -1,0 +1,78 @@
+/*-- scss:defaults --*/
+
+// Fonts
+$font-family-sans-serif: 'Marianne', sans-serif;
+
+// Colors
+$black: #000000;
+$white: #ffffff;
+
+$vert_nature: #002d2d;
+$vert_avenir: #32a68c;
+$vert_tendre: #89e0b1;
+$bleu_horizon: #000037;
+$bleu_inclusif: #5862ed;
+$bleu_evasion: #7abaff;
+$marron_durable: #2d0505;
+$rouge_action: #fc535c;
+$rose_accueillant: #ffb4d2;
+$beige_serein: #faf0e1;
+$gris_clair: #ededed;
+
+$body-bg: $bleu_horizon !default;
+$link-color: $vert_avenir !default;
+$body-color: $white !default;
+
+// Sizes
+$presentation-font-size-root: 20px;
+$presentation-h1-font-size: 3em;
+$presentation-h2-font-size: 2.5em;
+$presentation-h3-font-size: 1.75em;
+
+/*-- scss:rules --*/
+.reveal {
+
+  h1, h2 {
+    color: $beige_serein !important;
+    font-weight: bold;
+  }
+
+  .slide-number {
+    color: $beige_serein !important;
+    font-size: $presentation-font-size-root;
+    font-family: $presentation-heading-font;
+  }
+
+  .quarto-title-block .quarto-title-authors .quarto-title-author {
+    color: $gris_clair !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important; 
+  }
+
+  .date {
+    color: $gris_clair !important;
+    justify-self: end;
+  }
+
+  #title-slide, .title-slide {
+    display: grid !important;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .quarto-title-block .quarto-title-authors {
+    justify-content: end;
+  }
+
+  .slide-logo {
+    height: 5rem !important;
+    width: 5.7rem !important;
+    max-width: unset !important;
+    max-height: unset !important;
+  }
+
+  .footer {
+    color: $rose_accueillant !important;
+  }
+
+}
