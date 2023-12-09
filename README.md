@@ -1,5 +1,8 @@
 # Quarto Reveal.js Template for Lille University
 
+Please visit the deployed version of this template at:  
+[https://arthurdata.github.io/quarto-revealjs-lilleuniv/](https://arthurdata.github.io/quarto-revealjs-lilleuniv/)
+
 ## Requirements
 
 Requires Quarto version 1.3.0 or later...

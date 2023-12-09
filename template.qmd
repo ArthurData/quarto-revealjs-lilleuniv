@@ -22,3 +22,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 <https://quarto.org/docs/presentations/revealjs/>
 
+## Contenu - avec sidebar - {background-image="_extensions/lille-univ/sidebar.png" background-position="left" background-size="5% 100%"}
+
+
+```{r}
+#| echo: true
+print("hello world")
+```
