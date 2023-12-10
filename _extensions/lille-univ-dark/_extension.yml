@@ -6,12 +6,15 @@ contributes:
   formats:
     revealjs:
       theme: [default, dark.scss]
+      filters: [add-sidebar.lua]
       css: fonts.css
       logo: logo.jpg
       slideNumber: c
       code-line-numbers: false
       footer: |
         **{{< meta title >}}**
+      template-partials:
+        - title-slide.html
       title-slide-attributes:
         data-background-image: large-sidebar.png
         data-background-size: 50% 100%
