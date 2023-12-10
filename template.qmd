@@ -6,24 +6,21 @@ author: Arthur Bréant
 date: last-modified
 ---
 
-# Introduction {background-image="_extensions/lille-univ/large-sidebar.png" background-position="left" background-size="50% 100%"}
+# Introduction 
 
-# Une phrase très verbeuse ...  {background-image="_extensions/lille-univ/sidebar.png" background-position="left" background-size="5% 100%"}
+## Intro
 
 Avec une petite sidebar
 
-## Contenu - avec sidebar - {background-image="_extensions/lille-univ/sidebar.png" background-position="left" background-size="5% 100%"}
+## Contenu
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-## Contenu - sans sidebar -
+## Contenu
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+<https://github.com/ArthurData/quarto-revealjs-lilleuniv>
 
-<https://quarto.org/docs/presentations/revealjs/>
-
-## Contenu - avec sidebar - {background-image="_extensions/lille-univ/sidebar.png" background-position="left" background-size="5% 100%"}
-
+## Code
 
 ```{r}
 #| echo: true

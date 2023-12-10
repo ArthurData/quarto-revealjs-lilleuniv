@@ -43,25 +43,30 @@ $presentation-h3-font-size: 1.75em;
     font-family: $presentation-heading-font;
   }
 
-  .quarto-title-block .quarto-title-authors .quarto-title-author {
-    color: $vert_avenir !important;
-    padding-right: 0 !important;
-    padding-left: 0 !important; 
-  }
+  #title-slide {
+    .flex-section {
+      display: flex !important;
+      align-items: center;
+      justify-content: flex-end;
+    }
 
-  .date {
-    color: $rose_accueillant !important;
-    justify-self: end;
-  }
-
-  #title-slide, .title-slide {
-    display: grid !important;
-    align-items: center;
-    justify-content: flex-end;
-  }
+    .half-section {
+      width: 45%;
+    }
   
-  .quarto-title-block .quarto-title-authors {
-    justify-content: end;
+    .author {
+      color: $vert_avenir !important;
+      text-align: start;
+    }
+  
+    .date {
+      color: $rose_accueillant !important;
+      text-align: start;
+    }
+  
+    .title {
+      text-align: start;
+    }
   }
 
   .slide-logo {
@@ -83,7 +88,7 @@ $presentation-h3-font-size: 1.75em;
 
   pre.sourceCode code {
     background-color: $beige_serein !important;
-    font-size: 0.85rem !important;
+    font-size: 1rem !important;
   }
   
   code {
