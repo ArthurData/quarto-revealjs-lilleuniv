@@ -1,2 +1,5 @@
-*.html
+
 *_files/
+README.html
+template-dark.html
+template.html
