@@ -9,15 +9,15 @@ Requires Quarto version 1.3.0 or later...
 
 ## Formats
 
-This extension provides 2 `reveals` format:
+This extension provides 2 `revealjs` formats:
 
 - `lille-univ-revealjs`
 
-![Screenshot of lille-univ-revealjs theme](theme.png)
+![Screenshot of `lille-univ-revealjs` theme](theme.png)
 
 - `lille-univ-dark-revealjs`
 
-![Screenshot of lille-univ-dark-revealjs theme](dark-theme.png)
+![Screenshot of `lille-univ-dark-revealjs` theme](dark-theme.png)
 
 ## How to use?
 
