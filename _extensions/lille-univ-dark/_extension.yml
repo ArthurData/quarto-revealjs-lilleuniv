@@ -9,6 +9,7 @@ contributes:
       css: fonts.css
       logo: logo.jpg
       slideNumber: c
+      code-line-numbers: false
       footer: |
         **{{< meta title >}}**
       title-slide-attributes:

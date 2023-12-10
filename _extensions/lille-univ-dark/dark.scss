@@ -18,6 +18,7 @@ $rouge_action: #fc535c;
 $rose_accueillant: #ffb4d2;
 $beige_serein: #faf0e1;
 $gris_clair: #ededed;
+$jaune_determine: #ffd24b;
 
 $body-bg: $bleu_horizon !default;
 $link-color: $vert_avenir !default;
@@ -75,4 +76,28 @@ $presentation-h3-font-size: 1.75em;
     color: $rose_accueillant !important;
   }
 
+  // code
+
+  div.sourceCode {
+    border: 1px solid $gris_clair !important;
+  }
+
+  pre.sourceCode code {
+    // background-color: $beige_serein !important;
+    font-size: 0.85rem !important;
+  }
+  
+  code {
+    span.fu {
+      color: $jaune_determine !important;
+    }
+
+    span.st {
+      color: $vert_tendre !important;
+    }
+  }
+
+  div.sourceCode pre code.has-line-highlights>span:not(.highlight-line) {
+    opacity: 0.25 !important;
+  }
 }

@@ -75,4 +75,29 @@ $presentation-h3-font-size: 1.75em;
     color: $vert_avenir !important;
   }
 
+  // code
+
+  div.sourceCode {
+    border: 2px solid $gris_clair !important;
+  }
+
+  pre.sourceCode code {
+    background-color: $beige_serein !important;
+    font-size: 0.85rem !important;
+  }
+  
+  code {
+    span.fu {
+      color: $rouge_action !important;
+    }
+
+    span.st {
+      color: $vert_avenir !important;
+    }
+  }
+
+  div.sourceCode pre code.has-line-highlights>span:not(.highlight-line) {
+    opacity: 0.25 !important;
+  }
+
 }
